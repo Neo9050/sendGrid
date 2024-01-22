@@ -12,7 +12,7 @@ const msg = {
     email: process.env.FROM_EMAIL,
   },
   templateId:process.env.TEMPLATE_ID,
-  templateData:{
+  dynamicTemplateData:{
     name:'sumesh'
   }
 };
